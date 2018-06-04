@@ -1,0 +1,11 @@
+C:\Users\Paul\RiderProjects\ClassAndStruct\ClassAndStruct\bin\Debug\netcoreapp2.0\ClassAndStruct.deps.json
+C:\Users\Paul\RiderProjects\ClassAndStruct\ClassAndStruct\bin\Debug\netcoreapp2.0\ClassAndStruct.runtimeconfig.json
+C:\Users\Paul\RiderProjects\ClassAndStruct\ClassAndStruct\bin\Debug\netcoreapp2.0\ClassAndStruct.runtimeconfig.dev.json
+C:\Users\Paul\RiderProjects\ClassAndStruct\ClassAndStruct\bin\Debug\netcoreapp2.0\ClassAndStruct.dll
+C:\Users\Paul\RiderProjects\ClassAndStruct\ClassAndStruct\bin\Debug\netcoreapp2.0\ClassAndStruct.pdb
+C:\Users\Paul\RiderProjects\ClassAndStruct\ClassAndStruct\obj\Debug\netcoreapp2.0\ClassAndStruct.csprojAssemblyReference.cache
+C:\Users\Paul\RiderProjects\ClassAndStruct\ClassAndStruct\obj\Debug\netcoreapp2.0\ClassAndStruct.csproj.CoreCompileInputs.cache
+C:\Users\Paul\RiderProjects\ClassAndStruct\ClassAndStruct\obj\Debug\netcoreapp2.0\ClassAndStruct.AssemblyInfoInputs.cache
+C:\Users\Paul\RiderProjects\ClassAndStruct\ClassAndStruct\obj\Debug\netcoreapp2.0\ClassAndStruct.AssemblyInfo.cs
+C:\Users\Paul\RiderProjects\ClassAndStruct\ClassAndStruct\obj\Debug\netcoreapp2.0\ClassAndStruct.dll
+C:\Users\Paul\RiderProjects\ClassAndStruct\ClassAndStruct\obj\Debug\netcoreapp2.0\ClassAndStruct.pdb
