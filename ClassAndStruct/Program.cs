@@ -26,6 +26,7 @@ namespace ClassAndStruct
         {
             var timePeriod = new TimePeriod {Hours = 10};
             Console.WriteLine(timePeriod.Hours);
+            Console.WriteLine("");
         }
     }
 }
