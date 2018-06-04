@@ -2,31 +2,37 @@
 
 namespace ClassAndStruct
 {
-    class TimePeriod
+    struct Circle
     {
-        private int _seconds;
-
-        public int Hours
+        public double Radius
         {
-            get => _seconds / 3600;
+            get { return Math.Sqrt(Area / Math.PI); }
+            set
+            {   
+                if (value <= 0) throw new ArgumentOutOfRangeException(nameof(value));
+                Radius = value;
+            }
+        }
+
+        public double Area
+        {
+            get => Radius * Radius  * Math.PI;
             set
             {
-                if (value<0||value>24)
-                {
-                    throw new ArgumentOutOfRangeException($"{nameof(value)} should be in the range of 0 and 24");
-                }
-
-                _seconds = value * 3600;
+                if (value <= 0) throw new ArgumentOutOfRangeException(nameof(value)+" should be greater than 0");
+                Radius = Math.Sqrt(value / Math.PI);
+                Area = value;
             }
         }
     }
+    
     class Program
     {
         private static void Main(string[] args)
         {
-            var timePeriod = new TimePeriod {Hours = 10};
-            Console.WriteLine(timePeriod.Hours);
-            Console.WriteLine("");
+            var c = new Circle();
+            c.Area = 100;
+            Console.WriteLine(c.Area);
         }
     }
 }
